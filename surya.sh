@@ -5,15 +5,15 @@ LOS="https://github.com/LineageOs"
 
 # Device Tree
 "$(rm -rf device/xiaomi/surya)"
-git clone ${VESGUIN}/android_device_xiaomi_surya -b arrow device/xiaomi/surya;
+git clone ${VESGUIN}/android_device_xiaomi_surya -b test device/xiaomi/surya;
 
 # Vendor Tree
 "$(rm -rf vendor/xiaomi/surya)"
-git clone ${VESGUIN}/android_vendor_xiaomi_surya -b arrow vendor/xiaomi/surya;
+git clone ${VESGUIN}/android_vendor_xiaomi_surya -b test vendor/xiaomi/surya;
 
 # Kernel Tree
 "$(rm -rf kernel/xiaomi/surya)"
-git clone ${VESGUIN}/android_kernel_xiaomi_surya -b arrow kernel/xiaomi/surya;
+git clone ${VESGUIN}/android_kernel_xiaomi_surya -b test kernel/xiaomi/surya;
 
 #HALS
 "$(rm -rf hardware/qcom-caf/sm8150/display)"
